@@ -10,27 +10,27 @@ screen = pygame.display.set_mode((800, 600))
 
 # Title and Icon
 pygame.display.set_caption("Space Invaders")
-icon = pygame.image.load("spaceship.png")  # Use your own spaceship icon file
+icon = pygame.image.load("window.png")  
 pygame.display.set_icon(icon)
 
 # Background Color
 background_color = (0, 0, 0)
 
 # Player
-player_img = pygame.image.load("player.png")  # Use your own player image
+player_img = pygame.image.load("player.png")  
 player_x = 370
 player_y = 480
 player_x_change = 0
 
 # Enemy
-enemy_img = pygame.image.load("enemy.png")  # Use your own enemy image
+enemy_img = pygame.image.load("enemy.png")  
 enemy_x = random.randint(0, 736)
 enemy_y = random.randint(50, 150)
 enemy_x_change = 4
 enemy_y_change = 40
 
 # Bullet
-bullet_img = pygame.image.load("bullet.png")  # Use your own bullet image
+bullet_img = pygame.image.load("bullet.png")  
 bullet_x = 0
 bullet_y = 480
 bullet_y_change = 10
